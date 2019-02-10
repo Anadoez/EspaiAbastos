@@ -1,3 +1,6 @@
+@charset "utf-8";
+
+/* ***********Estilos generales ********************************************/
 * {
     margin:0px;
     padding:0px;
@@ -18,7 +21,11 @@ img{
     font-family:Arial, Helvetica, sans-serif;
 }
 
-/* Lista */
+/* Lista-navegador */
+nav{
+    position:sticky;
+    top:0;
+}
 ul{
     list-style:none;
     overflow: hidden;
@@ -39,3 +46,76 @@ ul{
 .nav li a:hover {
     background-color:#2567A1;
 }
+/* Ofertas*/
+.oferta {
+    width:60%;
+    height: 30%;
+    clear:both;
+    border:1px solid rgb(87, 73, 73);
+    padding-bottom: 12%;
+    margin:1%;
+    border-radius: 0% 2% 2% 0%; 
+    background-color: antiquewhite;
+}
+.oferta img{
+    width:20%;
+    box-shadow:
+	2px 4px 8px 0 rgba(87,20,20,0.4),
+	2px 6px 20px 0 rgba(87,20,20,0.3);
+}
+.oferta img,.oferta p{
+    float:left;
+    margin:1%;
+}
+.oferta h2{
+    color:rgba(146, 86, 86, 0.922);
+}
+.precios{
+    margin-left: 55%;
+}
+.antiguoPrec{
+    text-decoration: line-through;
+}
+.nuevoPrec{
+    font-size: 150%;
+    color:red;
+    margin-left: 1%;
+}
+
+/* ***************Aside************* */
+
+
+
+
+
+
+
+
+
+
+/* *******************Footer******************* */
+footer{
+    background-color: rgb(87, 73, 73);
+    color:white;
+    padding:1%;
+}
+footer a{
+    color:white;
+}
+footer img{
+    width:5%;
+    height: 5%;
+    margin-left:20%;
+}
+.politicas{
+    margin-left:2%;
+}
+.redesSociales{
+    margin-left:25%;
+    
+}
+.fab{
+    font-size: 170%;
+    margin:1%;   
+}
+
