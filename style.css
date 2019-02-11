@@ -150,7 +150,7 @@ margin-top: 2%;
     background: rgb(166, 185, 214);
     color: #FFF; 
     font-family: Arial, Sans-serif;
-    font-size: 21px;
+    font-size: 12px;
     padding: 20px 10px 10px 10px;
     text-align : center;
     width: 1000px;
@@ -160,8 +160,12 @@ margin-top: 2%;
     border-radius: 10px;
     font-size: 100%;
 }
-ul{
-    text-align: left
+
+.quienes_somos{
+    text-align: left;
+    font-size: 21px;
+    line-height: 24px;
+    border: 0px;
 }
 
 
