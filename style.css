@@ -22,6 +22,20 @@ header{
     font-weight: 100%;
     height: 500px;
 }
+.abast{
+    width: 10%;
+    height: 100px;
+    text-align: right;
+    position: relative;
+    border:1px solid rgb(87, 73, 73);
+
+    margin-top: 0%;
+    margin-left: 90%;
+    border-radius: 0% 2% 2% 0%; 
+    
+
+}
+/* imagen y texto  */
 .salon{
 width: 100%;
 height: 300px;
@@ -35,6 +49,7 @@ h1 {
     text-shadow: rgb(82, 64, 64) 15px 9px 9px;
     text-transform: uppercase;
     color: white;
+    margin-top: 8%;
   }
 #header {
     margin:auto;
@@ -73,8 +88,8 @@ ul{
 }
 /* Ofertas*/
 .oferta {
-    width:60%;
-    height: 30%;
+    width:70%;
+    height: 70%;
     clear:both;
     border:1px solid rgb(87, 73, 73);
     padding-bottom: 12%;
@@ -82,8 +97,10 @@ ul{
     border-radius: 0% 2% 2% 0%; 
     background-color: antiquewhite;
 }
+
 .oferta img{
-    width:20%;
+    width:40%;
+    height: ;
     box-shadow:
 	2px 4px 8px 0 rgba(87,20,20,0.4),
 	2px 6px 20px 0 rgba(87,20,20,0.3);
@@ -96,7 +113,7 @@ ul{
     color:rgba(146, 86, 86, 0.922);
 }
 .precios{
-    margin-left: 55%;
+    margin-left: 40%;
 }
 .antiguoPrec{
     text-decoration: line-through;
@@ -116,6 +133,33 @@ ul{
 
 
 
+/* ***************Contenido Quien Somos************* */
+.titulo{
+color: black;
+font-size:200%;
+font-weight: bold;
+letter-spacing: 8px;
+ margin-left: 2%;
+text-shadow: rgb(82, 64, 64) 3px 3px 3px;
+text-transform: uppercase;
+;
+margin-top: 2%;
+}
+
+.speech-bubble {
+    background: rgb(166, 185, 214);
+    color: #FFF; 
+    font-family: Arial, Sans-serif;
+    font-size: 12px;
+    padding: 20px 10px 10px 10px;
+    text-align : center;
+    width: 500px;
+    height: 400px;
+    -moz-border-radius: px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font-size: 100%;
+}
 
 
 /* *******************Footer******************* */
