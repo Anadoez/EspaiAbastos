@@ -125,12 +125,25 @@ ul{
 }
 
 /* ***************Aside************* */
+aside{
+    color: black;
+    font-size: 200%;
+    width: 10%;
+    height: 20px;
+    margin-left:85%;
+    position:absolute;
+    top: 700px;
 
+    
+}
 
+.as{
+    background-color: red;
+}
 
-
-
-
+.gran{
+    font-size: 180%;
+}
 
 
 /* ***************Contenido Quien Somos************* */
@@ -177,12 +190,15 @@ ul.ok{
 
 /* *******************Footer******************* */
 footer{
+    clear: both;
     background-color: rgb(87, 73, 73);
     color:white;
     padding:1%;
 }
 footer a{
     color:white;
+
+    
 }
 footer img{
     width:5%;
