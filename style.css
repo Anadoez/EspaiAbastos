@@ -127,13 +127,13 @@ ul{
 /* ***************Aside************* */
 aside{
     color: black;
+   
     font-size: 200%;
     width: 10%;
     height: 20px;
     margin-left:85%;
     position:absolute;
     top: 700px;
-
     
 }
 
@@ -190,6 +190,7 @@ ul.ok{
 
 /* *******************Footer******************* */
 footer{
+    position:sticky;
     clear: both;
     background-color: rgb(87, 73, 73);
     color:white;
