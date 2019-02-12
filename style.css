@@ -100,7 +100,7 @@ ul{
 
 .oferta img{
     width:40%;
-    /*height: 100%;*/
+    height: ;
     box-shadow:
 	2px 4px 8px 0 rgba(87,20,20,0.4),
 	2px 6px 20px 0 rgba(87,20,20,0.3);
@@ -140,32 +140,38 @@ font-size:200%;
 font-weight: bold;
 letter-spacing: 8px;
  margin-left: 2%;
-text-shadow: rgb(92, 74, 74) 3px 3px 3px;
+text-shadow: rgb(82, 64, 64) 3px 3px 3px;
 text-transform: uppercase;
 ;
 margin-top: 2%;
 }
-
+body.som{
+background-color: rgb(245, 237, 215);
+}
 .speech-bubble {
-    background: rgb(166, 185, 214);
+    background: rgb(201, 182, 141);
     color: #FFF; 
     font-family: Arial, Sans-serif;
     font-size: 12px;
     padding: 20px 10px 10px 10px;
     text-align : center;
-    width: 1000px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     -moz-border-radius: px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
     font-size: 100%;
 }
-
-.quienes_somos{
-    text-align: left;
-    font-size: 21px;
-    line-height: 24px;
-    border: 0px;
+.somos{
+    font-size: 150%;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul.ok{
+    color: black;
+    border:5px rgb(65, 44, 44) solid;
+    
+    
 }
 
 
@@ -194,4 +200,8 @@ footer img{
     font-size: 170%;
     margin:1%;   
 }
+
+
+
+
 
