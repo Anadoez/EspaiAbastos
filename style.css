@@ -100,7 +100,7 @@ ul{
 
 .oferta img{
     width:40%;
-    height: ;
+    height: ; /*¿Porque esto esta vacio?¿no seria mejor borrarlo directamente?*/
     box-shadow:
 	2px 4px 8px 0 rgba(87,20,20,0.4),
 	2px 6px 20px 0 rgba(87,20,20,0.3);
