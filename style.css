@@ -102,7 +102,7 @@ ul{
 
 .oferta img{
     width:40%;
-    height: ; /*¿Porque esto esta vacio?¿no seria mejor borrarlo directamente?*/
+    /*¿Porque esto esta vacio?¿no seria mejor borrarlo directamente? Pues se quita y yau no hace falta preguntar, si algo molesta y no afecta en nada, fuera*/
     box-shadow:
 	2px 4px 8px 0 rgba(87,20,20,0.4),
 	2px 6px 20px 0 rgba(87,20,20,0.3);
@@ -176,6 +176,9 @@ background-color: rgb(245, 237, 215);
     -webkit-border-radius: 10px;
     border-radius: 10px;
     font-size: 100%;
+    float:left;
+    margin-left: 10%;
+    margin-bottom: 5%;
 }
 .somos{
     font-size: 150%;
@@ -187,6 +190,9 @@ ul.ok{
     border:5px rgb(65, 44, 44) solid;
     
     
+}
+.speech-bubble a{
+  color:white;
 }
 /* ***************Contenido Contacto***************** */
 
@@ -420,11 +426,11 @@ footer{
     background-color: rgb(87, 73, 73);
     color:white;
     padding:1%;
+    clear:both;
+    
 }
 footer a{
-    color:white;
-
-    
+    color:white;  
 }
 footer img{
     width:5%;
