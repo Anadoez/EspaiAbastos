@@ -419,6 +419,57 @@ textarea {
     font-size: 0.875em;
   }
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'montserrat', sans-serif;
+}
+
+.container {
+  position: absolute;
+  width: 100%;
+  top:150%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.content {
+  width: 220px;
+  height: 140px;
+  display: inline-block;
+  background: #3498db;
+  margin: 10px;
+  color: white;
+  position: relative;
+  cursor: pointer;
+}
+
+.content:hover i{
+  transform: translateY(-40px);
+}
+
+.content i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  line-height: 140px;
+  background: #34495e;
+  z-index: 1;
+  transition: transform 0.6s;
+}
+
+.content span {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 10px 0;
+}
+
 /* ***********************Ubicacion ********************* */
 #donde h3{
     font-size: 150%;
@@ -436,6 +487,131 @@ textarea {
 .margin1{
   margin-left: 5%;
 }
+
+
+
+
+/* ****************Espai******************* */
+
+.gallery {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.gallery img {
+  flex: 1 1 auto;
+  width: auto;
+  height: auto;
+  min-width: 200px;
+  max-height: 500px;
+  margin: 10px;
+  object-fit: cover; 
+  transition: transform .2s;
+}
+
+.gallery:hover img {
+  filter: blur(1px) brightness(.8) grayscale(.7);
+  transform: scale(.8);
+}
+
+.gallery img:hover {
+  filter: blur(0);
+  transform: scale(1);
+}
+
+.top {object-position: top;}
+.bottom {object-position: bottom;}
+.center {object-position: center;}
+.left {object-position: left;}
+.right {object-position:right;}
+
+
+
+
+
+.video-container {
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
+  @media(min-width: 600px) {
+    height: 100vh;
+  }
+}
+
+video {
+  object-fit: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
+
+
+
+
+/*** A E S T H E T I C S ***/
+/***************************/
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+.video-container:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(black, .2);
+  z-index: 1;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 200;
+  margin: 0 0 1rem;
+  padding: 0;
+  line-height: 1;
+  font-family: Futura, Helvetica, sans-serif;
+  font-size: 5vw;
+    
+  }
+
+
+
+.callout {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+
+  
+
+
+
+
+
+
 
 /* *******************Footer******************* */
 footer{
