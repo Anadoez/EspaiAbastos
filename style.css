@@ -443,6 +443,7 @@ body {
   color: white;
   position: relative;
   cursor: pointer;
+  margin-top: 30%
 }
 
 .content:hover i{
