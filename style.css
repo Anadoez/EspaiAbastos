@@ -489,6 +489,12 @@ body {
   flex-wrap: wrap;
   justify-content: flex-start;
 }
+.link{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
 
 .gallery img {
   flex: 1 1 auto;
