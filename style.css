@@ -101,7 +101,6 @@ ul{
 
 .oferta img{
     width:40%;
-    /*¿Porque esto esta vacio?¿no seria mejor borrarlo directamente? Pues se quita y yau no hace falta preguntar, si algo molesta y no afecta en nada, fuera*/
     box-shadow:
 	2px 4px 8px 0 rgba(87,20,20,0.4),
 	2px 6px 20px 0 rgba(87,20,20,0.3);
@@ -193,9 +192,7 @@ ul.ok{
 .speech-bubble a{
   color:white;
 }
-.speech-bubble img{
-  
-}
+
 /* ***************Contenido Contacto***************** */
 
 html {
