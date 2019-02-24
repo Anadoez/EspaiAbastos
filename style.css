@@ -16,7 +16,10 @@ img{
     table{
         border: #2567A1;
 	}
-	
+  
+  mark{
+    background-color: rgba(133, 101, 43, 0.5);
+  }
 /* Encabezado */
 header{
     background-image:   url("img/salon1.png") ;
